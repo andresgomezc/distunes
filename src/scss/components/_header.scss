@@ -1,0 +1,37 @@
+.web-header {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    background: fade-out($color-matiz-amarillo, 0.20);
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+    transition: background 0.5s;
+    &:hover {
+        background: $color-matiz-amarillo;
+    }
+
+    .web-title {
+        color: $color-oscuro;
+        font-size: 36pt;
+        font-family: $title-font-family;
+    }
+
+    .form-search {
+        display: flex;
+        align-items: baseline;
+
+        .web-header-sign {
+            font-weight: bold;
+        }
+
+        .busquedas {
+            width: 200px;
+            margin-left: 20px;
+            margin-top: 10px;
+            padding: 5px;
+        }
+    }
+}

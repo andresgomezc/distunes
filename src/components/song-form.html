@@ -1,0 +1,39 @@
+<form novalidate class="song-form ideal">
+    <div class="ui-status error">
+        <p>Se ha cometido un error.</p>
+    </div>
+
+    <div class="ui-status loading">
+        <p>Cargando????</p>
+    </div>
+
+    <div class="ui-status ideal">
+
+        <!-- SIEMPRE, SIEMPRE, lo que pongamos en "id" debe ser lo mismo que en "for".
+        Esto es para que, haciendo click sobre el nombre del campo, seleccionemos ya
+        el campo en sí donde queremos escribir. -->
+
+        <!-- El "required" es importante. Define campos que son obligatorios para
+        que el formulario pueda avanzar. -->
+
+        
+        <div class="form-control-group">
+            <label for="artist">Artista</label>
+            <input type="text" id="artist" name="artist" placeholder="Escribe el nombre del artista" required>
+        </div>
+
+        <div class="form-control-group">
+            <label for="title">Título de la canción</label>
+            <input type="text" id="title" name="title" placeholder="Escribe el nombre de la canción" required>
+        </div>
+
+        <div class="form-control-group">
+            <label for="cover">Cubierta del disco</label>
+            <input type="url" id="cover" name="cover" placeholder="Pega la URL de la cubierta">
+        </div>
+
+        <div class="form-control-group">
+            <button>Enviar canción</button>
+        </div>
+    </div>
+</form>

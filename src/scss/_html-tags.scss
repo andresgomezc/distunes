@@ -1,0 +1,47 @@
+body {
+    font-family: $main-font-family;
+    font-size: $font-size-base;
+    color: $color-oscuro;
+    padding-top: 100px;
+}
+
+form {
+    padding: 10px;
+}
+
+label, input, button {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+label {
+    font-size: $font-size-small;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 5px;
+}
+
+input {
+    margin-top: 5px 0px 15px 0px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+
+    &:focus {
+        outline-color: $color-matiz-amarillo;
+    }
+}
+
+button {
+    @extend input;
+    background-color: $color-matiz-amarillo;
+    font-weight: bold;
+    text-transform: uppercase;
+
+    transition: all 0.25s;
+
+    &:focus {
+        background-color: darken($color: $color-matiz-amarillo, $amount: 10%);
+    }
+}
