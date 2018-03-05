@@ -1,12 +1,10 @@
 # Distunes
 
-##
-
 Bienvenido al repositorio online de la web (inacabada) de Distunes: un proyecto de clase que incorpora *media queries* para el tema responsive y usa *node*, *gulp* y *sass* (entre más cosas).
 
 Este proyecto fue desarrollado durante el segundo curso del *Grado en Diseño y Tecnologías Creativas* de la UPV.
 
-###Instalaciones previas
+### Instalaciones previas
 
 Para la correcta ejecución de esta página web necesitarás tener instalado (por orden, ya que unos necesitan a otros):
 
@@ -16,7 +14,7 @@ Para la correcta ejecución de esta página web necesitarás tener instalado (po
 4. Gulp (ejecutar el comando `npm install -g gulp-cli` en la terminal del sistema)
 5. Git (disponible [aquí](https://git-scm.com/downloads "Git")) (¿opcional?)
 
-###Pasos a seguir una vez descargado/clonado
+### Pasos a seguir una vez descargado/clonado
 
 1. Abrir el proyecto con Visual Studio Code (arrastrando la carpeta del proyecto sobre el icono en el escritorio es suficiente).
 
